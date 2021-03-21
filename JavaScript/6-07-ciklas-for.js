@@ -52,3 +52,14 @@ for (let i = 0; i < skaicC1.length; i++) {
     sumC1 += C1;
 }
 console.log(sumC1);
+
+console.log('---------');
+// 2. panaudojant ciklą perašyti tekstinio tipo kintamųjų reikšmes iš kito galo: 
+// pvz.: “abcdef” -> “fedcba”
+
+const raides = 'abcdef';
+
+for (let i = 0; i < raides.length; i++) {
+    const simbolis = raides[i];
+    console.log(simbolis);
+}
